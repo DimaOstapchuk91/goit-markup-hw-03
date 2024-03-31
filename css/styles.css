@@ -39,6 +39,7 @@ h3 {
 
 a {
   text-decoration: none;
+  display: block;
 }
 
 img {
@@ -105,6 +106,7 @@ address {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .logo-item {
@@ -125,7 +127,6 @@ address {
 }
 
 .header-list-item {
-  padding: 24px 0;
 }
 
 .header-list-link {
@@ -153,6 +154,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding: 24px 0;
 }
 
 .header-address-link:hover,
@@ -175,7 +177,7 @@ address {
   color: #fff;
   text-align: center;
   margin: 0 auto;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   max-width: 496px;
 }
 
@@ -316,6 +318,8 @@ address {
 .fotter-logo {
   display: inline-block;
   margin-bottom: 16px;
+  padding: 0;
+  margin-right: 0;
 }
 
 .footer-text {
@@ -323,5 +327,4 @@ address {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  padding-bottom: 100px;
 }
